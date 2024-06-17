@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 220px;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}

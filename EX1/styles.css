@@ -1,0 +1,100 @@
+.navbar-custom,
+.footer-custom {
+    background-color: #0056b3;
+}
+
+.footer-custom {
+    color: black;
+}
+
+
+.video {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.text {
+    padding: 0 20px;
+}
+
+.text2 {
+    background-color: #33CCFF;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #4e92df;
+}
+
+
+.btn-primary {
+    background-color: #4e92df;
+    border-color: #4e92df;
+}
+
+.btn-primary:hover {
+    background-color: #3c7db8;
+    border-color: #3c7db8;
+}
+
+/* Container của các card */
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Các card */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18rem;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Hình ảnh trong card */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Nội dung trong card */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    flex: 0 1 auto;
+}
+
+.card-text {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
